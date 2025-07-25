@@ -4,7 +4,7 @@ This project toggles an onboard LED connected to **GPIOA Pin 5** of an STM32 mic
 
 ---
 
-## 🔧 GPIO Configuration Details
+## GPIO Configuration Details
 
 - **LED Connection:**
   - **Port:** GPIOA
@@ -12,7 +12,7 @@ This project toggles an onboard LED connected to **GPIOA Pin 5** of an STM32 mic
 
 ---
 
-## 📦 Memory Region Macros Explained
+##  Memory Region Macros Explained
 
 ### `#define PERIPH_BASE (0x40000000UL)`
 - **Purpose:** Starting base address for peripheral registers in STM32.
@@ -26,7 +26,7 @@ This project toggles an onboard LED connected to **GPIOA Pin 5** of an STM32 mic
 
 ---
 
-## 🧩 Peripheral Base Addresses
+## Peripheral Base Addresses
 
 ### `#define GPIOA_OFFSET (0x0000)`
 - **GPIOA offset** from AHB1 base.
@@ -42,7 +42,7 @@ This project toggles an onboard LED connected to **GPIOA Pin 5** of an STM32 mic
 
 ---
 
-## 🔌 RCC and GPIO Control Macros
+##  RCC and GPIO Control Macros
 
 ### `#define RCC_AHB1ENR_OFFSET (0x30UL)`
 - Offset of the **AHB1 peripheral clock enable register**.
@@ -55,7 +55,7 @@ This project toggles an onboard LED connected to **GPIOA Pin 5** of an STM32 mic
 
 ---
 
-## 💡 Output Data Register
+## Output Data Register
 
 ### `#define ODR_OFFSET (0x14)`
 - Offset of **Output Data Register (ODR)** in GPIO.
@@ -65,7 +65,7 @@ This project toggles an onboard LED connected to **GPIOA Pin 5** of an STM32 mic
 
 ---
 
-## 📍 Pin-Level Macros
+## Pin-Level Macros
 
 ### `#define GPIOAEN (1U << 0)`
 - Enables GPIOA clock in RCC register.
@@ -78,7 +78,7 @@ This project toggles an onboard LED connected to **GPIOA Pin 5** of an STM32 mic
 
 ---
 
-## ⏲️ Delay Function
+## Delay Function
 
 ```c
 void delay(volatile unsigned int time)
@@ -88,7 +88,7 @@ void delay(volatile unsigned int time)
 
 ---
 
-## 📌 Summary
+## Summary
 
 This project demonstrates:
 - Enabling GPIOA via RCC.
