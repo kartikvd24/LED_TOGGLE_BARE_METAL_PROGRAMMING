@@ -7,7 +7,7 @@ This project toggles an onboard LED connected to **GPIOA Pin 5** of an STM32 mic
 ## GPIO Configuration Details
 
 - **LED Connection:**
-  - **Port:** GPIOA
+  - **Port:** GPIOA(Port A)
   - **Pin:** 5
 
 ---
